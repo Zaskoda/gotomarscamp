@@ -2,16 +2,19 @@
 
 @section('content')
 <div class="home-container">
-    <div class="home-welcome">
-        <div class="wrap cf">
-            <div class="content">
-                <h3>Mars Camp</h3>
+    <div class=" container">
+        <div class="home-welcome">
+            <div class="wrap">
+                <div class="content">
+                    <h3 class="fancy">Mars Camp</h3>
 
-                <p>GoTo it... </p>
+                    <p>GoTo it... </p>
+                </div>
+            <h2 class="fancy">at Burning Man 2018</h2>
             </div>
         </div>
     </div>
-    <div class="home-mars1">
+    <div class="home-mars1 container">
 
         <div class="row">
             <div class="col-md-8">

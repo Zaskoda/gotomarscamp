@@ -13,7 +13,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-        
+
     <!-- Scripts -->
     <script>
         window.Laravel = {!! json_encode([
@@ -21,9 +21,9 @@
         ]) !!};
     </script>
 </head>
-<body>
+<body id="marsbody">
     <div id="app">
-        <nav class="navbar navbar-default navbar-static-top">
+        <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
 
@@ -37,7 +37,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        GoTo<span>Mars.camp</span>
+                        GoTo<span>Mars</span>.camp
                     </a>
                 </div>
 
