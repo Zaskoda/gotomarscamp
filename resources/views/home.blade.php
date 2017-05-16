@@ -19,6 +19,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
                     <p class="fancy">
+                        <img src="images/mars-shelter.jpg" class="pull-right">
                         <b>What:</b> Mars Camp <br>
                         <b>Where:</b> Black Rock City <br>
                         <b>When:</b> 2018<br>
@@ -31,6 +32,7 @@
                     <p>More to come,<br>Koda</p>
                     <p><a href="https://twitter.com/gotomarscamp">Follow @GoToMarsCamp on Twitter</a></p>
                     <p><a href="https://www.facebook.com/groups/447166618958188/">Join the Mars Camp Facebook Group</a></p>
+                        <img src="images/marsmobile.jpg">
                 </div>
             </div>    
         </div>  
