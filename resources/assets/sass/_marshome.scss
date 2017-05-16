@@ -31,7 +31,13 @@ h1, h2, h3, h4, h5, .fancy {
 }
 
 .home-mars1 {
-    margin: 0;
+    margin: 0 0.25em;
+    color: #ccc;
+    font-size: 1.1em;
+    padding: 30px;
+    border: 1px solid #000;
+    background: rgba(0,0,0,0.75)
+    
 }
 
 .home-redcontent {
