@@ -23,7 +23,6 @@
 </head>
 <body id="marsbody">
     <div id="app">
-
         @yield('content')
     </div>
 
