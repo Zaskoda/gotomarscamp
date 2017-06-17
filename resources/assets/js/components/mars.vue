@@ -66,14 +66,16 @@
             console.log('Component mounted.')
         },
         created() {
-            axios.get(`/api/days`)
-            .then(response => {
-            // JSON responses are automatically parsed.
-            this.days = response.data
-            })
-            .catch(e => {
-            this.errors.push(e)
-            })
+            window.setInterval(() => {
+                axios.get(`/api/days`)
+                .then(response => {
+                    // JSON responses are automatically parsed.
+                    this.days = response.data
+                })
+                .catch(e => {
+                    this.errors.push(e)
+                })
+            },1000);
         }
     }
     
